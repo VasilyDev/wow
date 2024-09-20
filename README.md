@@ -1,2 +1,2 @@
 # wow
-Utility displaying text with line numbers and color highlighting.
+The "wow" command displays text, adds line numbers, and randomly colors the output to improve readability.
