@@ -6,7 +6,7 @@ Wow is an interesting and creative open-source project for displaying text files
 
 Here are the main aspects that highlight its essence and benefits:
 
-1. Alternative to Standard Utilities: wow serves as an alternative to standart tools, but adds a unique features:
+1. Alternative to Standard Utilities: Wow serves as an alternative to standart tools, but adds a unique features:
 
     — random color changes for the displaying text. This makes it not only functional but also visually appealing.
    
@@ -28,7 +28,8 @@ That's how it works:
 
 ![dearLinux](https://github.com/user-attachments/assets/b80e7d77-2300-443d-8725-30fe2b25722f)
 
-![dearlinux](https://github.com/user-attachments/assets/1d83e9d3-dd72-4f78-b2d5-98378309a997)
+![dearlinux](https://github.com/user-attachments/assets/9a349156-b6b7-4cb7-8a19-e9e0567efd16)
+
 
 
 and many more ...
