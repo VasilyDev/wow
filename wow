@@ -1,0 +1,51 @@
+#!/usr/bin/env python3
+
+import sys
+import random
+
+# 13 ANSI цветов для подсветки
+COLORS = [
+    '\033[31m',  # Красный
+    '\033[32m',  # Зеленый
+    '\033[33m',  # Желтый
+    '\033[34m',  # Синий
+    '\033[35m',  # Пурпурный
+    '\033[36m',  # Голубой
+    '\033[91m',  # Ярко-красный
+    '\033[92m',  # Ярко-зеленый
+    '\033[93m',  # Ярко-желтый
+    '\033[94m',  # Ярко-синий
+    '\033[95m',  # Ярко-пурпурный
+    '\033[96m',  # Ярко-голубой
+    '\033[97m',  # Ярко-белый
+]
+RESET = '\033[0m'  # Сброс цвета
+
+def wow(filenames):
+    # Выбираем один случайный цвет для всего вывода
+    color = random.choice(COLORS)
+    
+    if not filenames:
+        # Если файлы не указаны, читаем из stdin
+        line_number = 1
+        while True:
+            try:
+                line = input()
+                print(f"{color}{line_number:4d} | {line}{RESET}")
+                line_number += 1
+            except EOFError:
+                break
+    else:
+        for filename in filenames:
+            try:
+                with open(filename, 'r') as file:
+                    line_number = 1
+                    for line in file:
+                        print(f"{color}{line_number:4d} | {line.rstrip()}{RESET}")
+                        line_number += 1
+            except IOError as e:
+                print(f"wow: {filename}: {e.strerror}", file=sys.stderr)
+
+if __name__ == "__main__":
+    wow(sys.argv[1:])
+
