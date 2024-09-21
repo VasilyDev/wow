@@ -26,10 +26,9 @@ Here are the main aspects that highlight its essence and benefits:
 
 That's how it works:
 
-![1st](https://github.com/user-attachments/assets/53987857-30a7-4253-b746-944eb96cd84f)
+![dearLinux](https://github.com/user-attachments/assets/b80e7d77-2300-443d-8725-30fe2b25722f)
 
 ![dearlinux](https://github.com/user-attachments/assets/1d83e9d3-dd72-4f78-b2d5-98378309a997)
-
 
 
 and many more ...
