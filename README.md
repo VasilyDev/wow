@@ -34,3 +34,4 @@ That's how it works:
 
 and many more ...
 
+Glad to see you https://code.launchpad.net/~vasili013/wow-cli-tool/
